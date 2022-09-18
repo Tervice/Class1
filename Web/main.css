@@ -1,0 +1,13 @@
+a[target="_blank"] {
+    color: red;
+    font-size: 30px;
+}
+a[target="_self"] {
+    color: blue;
+    font-size: 20px;
+}
+
+
+
+    
+    
