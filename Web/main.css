@@ -6,8 +6,26 @@ a[target="_self"] {
     color: blue;
     font-size: 20px;
 }
-
-
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 39px;
+}
+.main-div{
+    background-color: grey;
+    color:red;
+}
+#paral{
+    color:blue;
+    text-align: right;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-indent: 20px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+}
 
     
     
