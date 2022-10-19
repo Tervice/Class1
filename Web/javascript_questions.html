@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function even_odd(i){
+            if (i%2==0){
+                return "The given number is Even.";
+            }
+            else{
+                return "The given number is Odd.";
+                }
+        }
+        document.write(even_odd(8));
+    </script>
+<br>
+<script>
+    function coverter(c){
+
+        far = c*(9/5)+32;
+        return far;
+    }
+    document.write(coverter(2))
+    </script>
+<br>
+<script>
+    function reverseString(str) {
+        var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    if (str == newString){
+        return "Pallindrome."
+    }
+    else{
+        return "Not Pallindrome"
+    }
+    }
+    document.write(reverseString("hello"));
+    </script>
+
+<p id="day"></p>
+<script>
+    let day;
+    
+    switch (new Date().getMonth()) {
+    
+    case 0:
+        day = "jan";
+        break;
+    
+    case 1:
+        day = "feb";
+        break;
+    
+    case 2:
+        day = "march";
+        break;
+    
+    case 3:
+        day = "apr";
+        break;
+    
+    case 4:
+        day = "may";
+        break;
+    
+    case 5:
+        day = "june";
+        break;
+
+    case  6:
+        day = "july";
+        break;
+
+    case  7:
+        day = "aug";
+        break;
+
+    case  8:
+        day = "sep";
+        break;
+
+    case  9:
+        day = "oct";
+        break;
+
+    case  10:
+        day = "nov";
+        break;
+
+    case  11:
+        day = "dec";
+        break;
+}
+document.getElementById("day").innerHTML = "Today is " + day;
+
+</script>
+
+document.write("<h2>The month is: " + day + "</h2>" )
+
+
+document.write("<h2>Q5.<h2>")
+document.write("<h2>Dates Method<h2>")
+document.write(new Date().getMonth())
+document.write("<br>")
+
+document.write(new Date().getDay())
+document.write("<br>")
+
+document.write(new Date().getFullYear())
+document.write("<br>")
+document.write(Date)
+    
+
+</body>
+</html>
